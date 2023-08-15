@@ -1,1 +1,16 @@
+spring:
+  datasource:
+    password:
+    username: sa
+    url: jdbc:h2:./app
 
+
+  jpa:
+    generate-ddl: true
+    hibernate:
+      ddl-auto: validate
+    show-sql: true
+
+  h2:
+    console:
+      enabled: true

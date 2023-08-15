@@ -1,2 +1,4 @@
-package co.pragra.pragracofeetime.controller;public class ProductController {
+package co.pragra.pragracofeetime.controller;
+
+public class ProductController {
 }

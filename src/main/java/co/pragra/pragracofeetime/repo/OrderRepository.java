@@ -1,2 +1,4 @@
-package co.pragra.pragracofeetime.repo;public interface OrderRepository {
+package co.pragra.pragracofeetime.repo;
+
+public interface OrderRepository {
 }

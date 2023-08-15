@@ -1,0 +1,12 @@
+2023-08-10 19:08:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "drop table if exists [*]order CASCADE "; expected "identifier"; SQL statement:
+drop table if exists order CASCADE  [42001-214]
+2023-08-10 19:08:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (id integer not null, order_date timestamp, purchase_amount double not null, customer_id integer, primary key (id))"; expected "identifier"; SQL statement:
+create table order (id integer not null, order_date timestamp, purchase_amount double not null, customer_id integer, primary key (id)) [42001-214]
+2023-08-10 19:08:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table [*]order add constraint FKnl45hbmc3wfypns48974qkclo foreign key (customer_id) references table_customer"; expected "identifier"; SQL statement:
+alter table order add constraint FKnl45hbmc3wfypns48974qkclo foreign key (customer_id) references table_customer [42001-214]
+2023-08-10 19:08:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table order_products add constraint FKoqpgoc81npyup5ma3idjwj0xo foreign key (order_id) references [*]order"; expected "identifier"; SQL statement:
+alter table order_products add constraint FKoqpgoc81npyup5ma3idjwj0xo foreign key (order_id) references order [42001-214]

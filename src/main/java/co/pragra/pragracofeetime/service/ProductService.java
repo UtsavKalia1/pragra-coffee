@@ -1,2 +1,4 @@
-package co.pragra.pragracofeetime.service;public class ProductService {
+package co.pragra.pragracofeetime.service;
+
+public class ProductService {
 }
