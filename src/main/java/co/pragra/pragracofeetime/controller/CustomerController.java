@@ -33,7 +33,7 @@ public class CustomerController {
 
     @PostMapping("/customer/create")
     public String create(@ModelAttribute Customer customer, Model model){
-        service.addCustomer(customer);
+        service.createCustomer(customer);
         //repository.save(customer);
       //  model.addAttribute("customers",repository.findAll());
         model.addAttribute("customers",service.fetchAllCustomer());
